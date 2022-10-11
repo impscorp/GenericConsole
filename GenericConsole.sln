@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericConsole", "GenericConsole\GenericConsole.csproj", "{1924163C-BD1E-4ACD-924A-CA1EA7DCFB96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericClass.Lib", "GenericClass.Lib\GenericClass.Lib.csproj", "{3D113D1D-4DCC-451A-A878-EAB546F5F199}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1924163C-BD1E-4ACD-924A-CA1EA7DCFB96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1924163C-BD1E-4ACD-924A-CA1EA7DCFB96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1924163C-BD1E-4ACD-924A-CA1EA7DCFB96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1924163C-BD1E-4ACD-924A-CA1EA7DCFB96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D113D1D-4DCC-451A-A878-EAB546F5F199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D113D1D-4DCC-451A-A878-EAB546F5F199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D113D1D-4DCC-451A-A878-EAB546F5F199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D113D1D-4DCC-451A-A878-EAB546F5F199}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
