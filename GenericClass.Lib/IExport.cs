@@ -2,7 +2,7 @@ namespace GenericConsole;
 
 public interface IExport<T>
 {
-    public List<T> ImportCSV(string path, string filename);
+    public List<T> ImportCSV(string path, string filename, char seperator);
     
     public bool ExportCSV(List<T> exportlist, string path,
         string filename = "export.csv");

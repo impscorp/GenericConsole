@@ -3,17 +3,17 @@ namespace GenericClass.Lib;
 public class Person
 {
     #region Properties
-    public int Id { get; set; }
+    public int PersonID { get; set; }
     public string FirstName { get; set; }
     public string LastName { get; set; }
-    public DateOnly Birthday { get; set; }
+    public DateTime Birthday { get; set; }
     #endregion
 
     #region Constructors
 
-    public Person(int id, string firstName, string lastName, DateOnly birthday)
+    public Person(int personId, string firstName, string lastName, DateTime birthday)
     {
-        Id = id;
+        PersonID = personId;
         FirstName = firstName;
         LastName = lastName;
         Birthday = birthday;
